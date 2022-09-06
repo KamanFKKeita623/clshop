@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"content="width=device-width, initial-scale=1">
+	<title>CL-SHOP: vente en ligne</title>
+
+	<style>
+		.images {
+			width: 100px;
+			float: left;
+		}
+		#entete{
+			background-color: #050A30;
+			text-align: center;
+			color: #FFF;
+		}
+		#bloc-1{
+			width: 100%;
+			background-color: #050A30;
+			color: #7ECBE3;
+			text-align: center;
+			font-size: 20px;
+			height : 50px;
+			/*La mise en forme de la partie affichée en haut*/
+
+		}
+		#bloc-1 h3 {
+			padding-top: 10px;
+			/*c'est le positionnement de la deuxieme veste*/
+		}  
+		#bloc-produit {
+			margin-top: 10px;
+			background-color: #000;
+			color: #FFF;
+			/*c'est le positionnement de la premiere veste*/
+			}
+		.produit-1 {
+			float: left;
+			width: 230px;
+			height: 330px;
+			background-color: #000C66;
+			margin: 10px;
+			padding: 10px;
+			text-align: center;
+			/*c'est la mise en forme des vestes*/
+
+		}
+		.imagePro {
+			width: 100%;
+			/*Limite de la partie Produits*/
+		}
+		#bloc-2	{
+			width: 100%;
+			background-color: #050A30;
+			color: #7ECBE3;
+			text-align: center;
+			font-size: 20px;
+			height: 50px;
+			
+		}
+		/*La mise en forme du commentaire indiquant les telephones*/
+
+		#bloc-2 h3{
+			padding-top: 10px;
+		}
+		#bloc-telephone {
+			margin-top: 15px;
+			background-color: #000;
+			color: #FFF;
+
+		}
+		.produit-2 {
+			float: left;
+			width: 230px;
+			height: 330px;
+			background-color: #000C66;
+			margin: 10px;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.iphone {
+			width: 100%;
+		}
+		#bloc-3{
+			width: 100%;
+			background-color: #050A30;
+			color: #7ECBE3;
+			text-align: center;
+			font-size: 20px;
+			height: 50px;
+		}
+		#bloc-3 h3 {  /*c'est la mise en forme du commentaire en haut des voitures*/
+			padding-top: 10px;
+		}
+		#bloc-voiture{
+			margin-top: 15px;		
+			background-color: #000;
+			color: #FFF;
+			/*c'est le design de la partie qui contient les 4 voitures*/
+		}
+		.produit-3{
+			float: left;
+			width: 230px;
+			height: 400px;
+			background-color: #000C66;
+			margin: 10px;
+			padding: 10px;
+			text-align: center;
+
+			/*cette partie donne un positionnement aux 4 voitures*/
+		}
+		.Voiture{   /*c'est la class voiture qui est là*/
+			width: 100%;
+		}
+		button {
+			padding: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<main style="width:1100px; margin: auto;">
+		<div id="entete">
+			<img src="img/c2.jpg" style="width: 350px; float: left;" alt="">
+			<!-- c'est la 1ièr image à gauche -->
+
+			<img src="img/v10.jpeg" class="images" alt="">
+			<img src="img/v11.jpeg" class="images" alt="">
+			<!-- c'est les 2 2ièm images à droite -->
+
+ 
+
+			<div id="titre">
+				<h2 style="text-transform: uppercase; padding-top: 50px;">CL-Shop Votre Boutique En Ligne</h2>
+				<h3 style="margin-top: -15px;">Trouver le mot magique pour vendre</h3>
+			</div>
+			<br style="clear: both;">
+		</div>
+
+
+		<div id="bloc-1">
+			<h3>NOS PRODUITS POPULAIRES</h3>
+		</div>
+
+		<!-- DEBUT INSERTION DU BLOC DES PRODUIS -->	
+		<pdiv id="bloc-produit"> 
+			<div class="produit-1">
+				<img src="img/v2.jpeg" class="imagePro" alt="">
+				<br><br> 
+				Prix : 1 500 000FG <br>
+				Veste Sahiri <br><br>
+				<button>Achetez Maintenant</button>
+				<!-- ça c'est l'insertion de deuxieme image -->
+				
+			</div>	 
+			<div class="produit-1">
+				<img src="img/v4.jpeg" class="imagePro" alt="">
+				<br><br>
+				Prix : 1 800 000FG <br>
+				Veste Sahiri <br><br>
+				<button> Achettez Maintenant</button>
+			</div>
+
+			<div class="produit-1">
+				<img src="img/V5.jpeg" class="imagePro" alt="">
+				<br><br>
+				Prix 1 750 000FG <br>
+				Veste Sahiri <br><br>
+				<button>Achetez Maintenant</button>
+			</div>
+			<div class="produit-1">
+				<img src="img/V5.jpeg" class="imagePro" alt="">
+				<br><br>
+				Prix 1 750 000FG <br>
+				Veste Sahiri <br><br>
+				<button>Achetez Maintenant</button>
+			</div>
+
+			<br style="clear: both;">
+
+			
+		</div>
+
+		<!-- FIN INSERTION DU BLOC DES PRODUITS -->
+
+			<div id="bloc-2">
+				<h3> NOS PRODUITS TELEPHONIQUES</h3>
+			</div>
+			
+
+		<!-- DEBUT D'INSERTION DES TELEPHONES -->
+			<div id="bloc-telephone">
+			<div class="produit-2">
+				<img src="img/IP8.jpg" class="iphone" alt="">
+				<br><br>
+				Prix : 10 000 000FG <br>
+				IPhone 11 <br><br>
+				<button>Achetez Maintenant</button>
+			</div>
+			<div class="produit-2">
+				<img src="img/IP7.jpg" class="iphone" alt="">
+				<br><br>
+				Prix : 12 000 000FG <br>
+				IPhone 12 <br><br>
+				<button> Achetez Maintenant</button>
+			</div>
+
+			<div class="produit-2">
+				<img src="img/IP3.jpg" class="iphone" alt="">
+				<br><br>
+				Prix : 13 000 000 000FG <br>
+				IPhone 13 Pro <br><br>
+				<button> Achetez Maintenant</button>
+		</div>
+		<div class="produit-2">
+				<img src="img/IP4.jpg" class="iphone" alt="">
+				<br><br>
+				Prix : 13 500 000FG <br>
+				IPhone 13 Pro <br><br>
+				<button>Achetez Maintenant</button>
+		</div>
+
+		<br style="clear : both;">
+
+		</div>
+
+		<!-- FIN D'ISERTION DES TELEHONES -->
+
+		<div id="bloc-3">
+			<h3> LES VOITURES A LA MODE</h3>
+		</div>
+		<!-- DEBUT D'INNTRODUCTION DES VOITURES -->
+		<div id="bloc-voiture">
+			<div class="produit-3">
+				
+				<img src="img/v1.jpg" class="Voiture" alt="">
+				<br><br>
+				Prix : 300 000 000FG <br>
+				RUTOBETMAN <br><br>
+				<button>Achetez Maintenant</button>
+			</div>
+			<div class="produit-3">
+				<img src="img/V2.jpg" class="Voiture" alt="">
+				<br><br>
+				Prix : 500 000 000FG <br>
+				Voiture de sport<br><br>
+				<button>Achetez Maintenant</button>
+			</div>
+			<div class="produit-3">
+				<img src="img/V3.jpg" class="Voiture" alt="">
+				<br><br>
+				Prix : 1 000 000 000FG <br>
+				Prado <br><br>
+				<button>Achetez Maintenant</button>
+			</div>
+			<div class="produit-3">
+				<img src="img/V4.jpg" class="Voiture" alt="">
+				<br><br>
+				Prix : 800 000 000FG <br>
+				Nissan <br><br>
+				<button>Achetez Maintenant</button>
+			</div>
+				<br style="clear : both;">
+		</div>
+
+		<!-- FIN D'INTRODUCTION DES VOITURES -->
+
+		</main>
+		
+</body>
+</html>
